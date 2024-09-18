@@ -3,24 +3,238 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>comlab</title>
-    <link rel="stylesheet"href="style.css">
+    <title>Cats On Campus</title>
+    <!-- web icon -->
+<link rel="icon" type="image/x-icon" href="image/favicon.png">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome CDN-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 <body>
-    <h1>My First Heading</h1>
-    <h2>My First Heading</h2>
-    <h3>My First Heading</h3>
-    <h4>My First Heading</h4>
-    <h5>My First Heading</h5>
-    <p>My first paragraph.</p>  
-    <img src="media/image 1.jpg" alt="beacutiful picture">
-    <video width="320" height="240" controls>
-        <source src="media/Final cut 5.mp4.mp4" type="video/mp4">
-        <source src="movie.ogg" type="video/ogg">
-      Your browser does not support the video tag.
-      </video>
+
+    <!-- navbar -->
+<div id="main-wrap" class="container-fluid"> 
+    <header class="row">
+        <div class="col-md-12 noPadding d-md-block">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary customNavColor">
+                <div class="container-fluid bkc">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a href="#home" class="nav-link">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#gallery" class="nav-link">GALLERY</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#video" class="nav-link">VIDEO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#community" class="nav-link">COMMUNITY</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#contact" class="nav-link">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Page -->
+    <div class="row">
+        <div class="col-md-12 comfortaa">
+            <p class="h1" style="font-size: 96px;">Cats On</p>
+        </div>
+        <div class="col-md-8 comfortaa">
+            <p class="h1" style="font-size: 148px;">Campus</p>    
+        </div>
+        <div class="col-md-4">
+            <figure class="figure">
+                <img src="image/cathome.pic.jpg" class="figure-img img-fluid rounded" alt="Cats on Campus" style="width: 400px; height: 310px;"> 
+            </figure>
+        </div>
+        <div class="col-md-12 comfortaa">
+            <p class="lead">
+                Cats of New York University in Abu Dhabi. Our little campus elves.
+            </p> 
+        </div>
+    </div>
+
+    <!-- Gallery -->
+    <div id="gallery" class="row">
+        <div class="col-md-12 comfortaa">
+            <p class="h1" style="font-size: 64px;">The Gallery</p>
+        </div>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="image/cat1.pic.jpg" class="d-block w-100" alt="The Sleeping Cat">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>The Sleeping Cat</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="image/cat2.pic.jpg" class="d-block w-100" alt="The Cat Outside D2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>The Cat Outside D2</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="image/cat3.pic.jpg" class="d-block w-100" alt="The Cat On The Hallway">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>The Cat On The Hallway</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="image/cat4.pic.jpg" class="d-block w-100" alt="The Cat is Watching You">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>The Cat is Watching You</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="image/cat5.pic.jpg" class="d-block w-100" alt="The Cat In The Bush">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>The Cat In The Bush</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="image/cat6.pic.jpg" class="d-block w-100" alt="Claws">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Claws</h5>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Video -->
+    <div id="video" class="row">
+        <div class="col-md-12 comfortaa">
+            <p class="h1" style="font-size: 64px;">A Vlog about Campus Cats</p>
+        </div>
+        <div class="col-md-12">
+            <video id="myVideo" class="d-block w-100" controls>
+                <source src="image/Cats on Campus.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>        
+    </div>
+
+    <!-- Community -->
+    <div id="community" class="row">
+        <div class="col-md-12 comfortaa">
+            <p class="h1" style="font-size: 64px;">See Our Members!</p>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <figure class="figure">
+                    <img src="image/cat7.pic.jpg" class="figure-img img-fluid rounded" alt="Community Cat 1" style="width: w-100; height: 280px;">
+                </figure>
+            </div>
+            <div class="col-md-4">
+                <figure class="figure">
+                    <img src="image/cat12.pic.jpg" class="figure-img img-fluid rounded" alt="Community Cat 2" style="width: w-100; height: 280px;">
+                </figure>
+            </div>
+            <div class="col-md-4">
+                <figure class="figure">
+                    <img src="image/cat8.pic.jpg" class="figure-img img-fluid rounded" alt="Community Cat 2" style="width: w-100; height: 280px;">
+                </figure>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <figure class="figure">
+                    <img src="image/cat9.pic.jpg" class="figure-img img-fluid rounded" alt="Community Cat 3" style="width: w-100; height: 280px;">
+                </figure>
+            </div>
+            <div class="col-md-4">
+                <figure class="figure">
+                    <img src="image/cat10.pic.jpg" class="figure-img img-fluid rounded" alt="Community Cat 4" style="width: w-100; height: 280px;">
+                </figure>
+            </div>
+            <div class="col-md-4">
+                <figure class="figure">
+                    <img src="image/cat11.pic.jpg" class="figure-img img-fluid rounded" alt="Community Cat 5" style="width: w-100; height: 280px;">
+                </figure>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact" class="row">
+      <div class="col-md-12 comfortaa">
+          <p class="h1" style="font-size: 64px;">Contact</p>
+      </div>
+    <div class="row">
+        <div class="col-md-6">
+            <figure class="figure">
+                <img src="image/contact.pic.jpg" class="figure-img img-fluid rounded" alt="Contact" style="width: 400px; height: 400px;">
+            </figure>
+        </div>
+        <div class="col-md-6">
+           <p class="h1" style="font-size: 48px;">Name: Violetta Li</p>
+            <p class="h1" style="font-size: 48px;">Email: xl4357@nyu.edu</p>
+            <p class="h1" style="font-size: 48px;">Tel: (971)50 314 6421</p>
+        </div>
+    </div>
+
+<!-- Reference and Social Media Icons-->
+<footer class="row w3-container w3-padding-64 w3-opacity w3-light-grey w3-xlarge">
+    <!-- Reference text -->
+    <div class="col-md-6 d-flex align-items-center">
+        <p class="h3">Reference</p>
+    </div>
+    <!-- Social Media Icons -->
+    <div class="col-md-6 d-flex align-items-center justify-content-end">
+        <a href="https://www.facebook.com/share/SV1UyK4MDC5jdozN/?mibextid=LQQJ4d" target="_blank" class="me-3">
+            <i class="fab fa-facebook-f w3-hover-opacity"></i>
+        </a>
+        <a href="https://www.instagram.com/xingchen2727?igsh=eGtzaDV5bXVvejJp&utm_source=qr" target="_blank">
+            <i class="fab fa-instagram w3-hover-opacity"></i>
+        </a>
+    </div>
+</footer>
+
+
+            
+
+
+
+<!-- JS -->
+<script src=“script.js”</script></script>
+<!-- gallery control -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

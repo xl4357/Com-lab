@@ -1,0 +1,213 @@
+@font-face {
+    font-family: 'sedan';
+    src: url('../font/Sedan-Regular.ttf');
+}
+@font-face {
+    font-family: Matisan;
+    src: url("Matisan.otf");
+}
+
+@font-face {
+    font-family: Chopin;
+    src: url("Chopin.ttf");
+}
+
+@font-face {
+    font-family: Sch;
+    src: url("Sch.ttf");
+}
+
+
+#main-wrap {
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.3); 
+}
+
+
+body {
+    background: url("image/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: Chopin;
+    font-weight: bold;
+    padding: 0; 
+}
+
+  
+
+.container { 
+    border: solid 1px rgba(246, 235, 232, 0.2); 
+    min-height: 100vh;
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.5); 
+}
+
+.col-md-12,
+.col-md-4,
+.col-md-6 {
+    border: solid 1px rgba(235, 235, 231, 0.2); 
+}
+
+.noPadding {
+    padding: 0; 
+}
+
+.customAmountPadding {
+    padding: 30px;
+}
+
+.customNavColor {
+    background: rgba(8, 8, 8, 0.5); 
+}
+
+
+/*
+menu
+*/
+
+.bkc {
+    background-color: rgba(255, 249, 71, 0.446); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    border: none; 
+    padding: 0; 
+    font-family: Chapin;
+    color: white; 
+}
+
+
+
+
+.suggestAmountBtn {
+    width: 100px;
+}
+
+.customBtnColor {
+    background: rgba(96, 105, 150, 0.); 
+    border: solid 1px white;
+    color: white; 
+}
+
+.customIssueImg {
+    height: 200px;
+}
+
+
+.comfortaa {
+  font-family: "Comfortaa", sans-serif;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding: 50px; 
+  color:rgb(68, 46, 46);
+  font-weight: 1200;
+  font-style: normal;
+}
+
+
+.customPaddingLR2 {
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: sedan;
+    padding: 10px;
+    color: rgb(24, 26, 25);
+}
+
+.customPaddingLR2 a {
+    color: rgb(57, 85, 81);
+}
+
+
+.customPaddingLR1 {
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: sedan;
+    font-weight: bold;
+    padding: 20px; 
+    color:rgb(57, 85, 81);
+
+}
+.customPaddingLR {
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: sedan;
+    font-weight: bold;
+    padding: 30px; 
+    color:brown;
+
+}
+
+.custom-font{
+    font-family: sedan;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(74, 19, 19);
+
+}
+
+
+.carousel-item {
+    height: 500px; 
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+}
+
+
+
+.customCardTextHeight {
+    height: 500px;
+}
+
+.heroImages {
+    height: 850px;
+}
+
+.logo {
+    font-size: 37px;
+}
+
+footer {
+    min-height: 40vh;
+    color: rgba(243, 238, 233, 0.8); 
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+footer i {
+    font-size: 40pt;
+    color: aliceblue;
+}
+
+footer i:hover {
+    color: rgb(87, 73, 75);
+}
+
+.btn-text {
+    color: white; 
+}
+
+
+
+.orz, .text { 
+    font-family: sedan; 
+    color: rgb(17, 132, 132); 
+}
+
+.custom-img {
+    display: block; 
+    width: 100%; 
+    height:300px;
+    border: 2px solid black; 
+    box-sizing: border-box; 
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        background: rgb(173, 173)}
+    }
+
